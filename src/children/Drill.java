@@ -1,3 +1,7 @@
+package children;
+
+import papa.Instrument;
+
 import java.util.Objects;
 
 public class Drill extends Instrument {
@@ -18,7 +22,7 @@ public class Drill extends Instrument {
 
     @Override
     public String toString() {
-        return "Drill{" +
+        return "children.Drill{" +
                 "large='" + large + '\'' +
                 '}';
     }

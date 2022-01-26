@@ -1,3 +1,5 @@
+package main;
+
 import java.util.Objects;
 
 public class ElectronicProduct {
@@ -37,7 +39,7 @@ public class ElectronicProduct {
 
     @Override
     public String toString() {
-        return "ElectronicProduct{" +
+        return "main.ElectronicProduct{" +
                 "brandName='" + brandName + '\'' +
                 ", id=" + id +
                 ", price=" + price +

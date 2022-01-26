@@ -1,3 +1,7 @@
+package papa;
+
+import main.ElectronicProduct;
+
 import java.util.Objects;
 
 public class Appliances extends ElectronicProduct {
@@ -18,7 +22,7 @@ public class Appliances extends ElectronicProduct {
 
     @Override
     public String toString() {
-        return "Appliances{" +
+        return "papa.Appliances{" +
                 "household='" + household + '\'' +
                 '}';
     }

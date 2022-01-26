@@ -1,3 +1,7 @@
+package papa;
+
+import main.ElectronicProduct;
+
 import java.util.Objects;
 
 public class Instrument extends ElectronicProduct {
@@ -28,7 +32,7 @@ public class Instrument extends ElectronicProduct {
 
     @Override
     public String toString() {
-        return "Instrument{" +
+        return "papa.Instrument{" +
                 "professional='" + professional + '\'' +
                 ", powerful=" + powerful +
                 '}';

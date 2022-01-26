@@ -1,4 +1,6 @@
-import java.util.Objects;
+package children;
+
+import papa.Appliances;
 
 public class Cleaner extends Appliances {
     private int powerful;
@@ -18,7 +20,7 @@ public class Cleaner extends Appliances {
 
     @Override
     public String toString() {
-        return "Cleaner{" +
+        return "children.Cleaner{" +
                 "powerful=" + powerful +
                 '}';
     }

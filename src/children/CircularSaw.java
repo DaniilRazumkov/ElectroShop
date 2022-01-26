@@ -1,3 +1,7 @@
+package children;
+
+import papa.Instrument;
+
 import java.util.Objects;
 
 public class CircularSaw extends Instrument {
@@ -18,7 +22,7 @@ public class CircularSaw extends Instrument {
 
     @Override
     public String toString() {
-        return "CircularSaw{" +
+        return "children.CircularSaw{" +
                 "batery=" + batery +
                 '}';
     }

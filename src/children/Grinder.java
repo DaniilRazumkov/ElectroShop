@@ -1,3 +1,7 @@
+package children;
+
+import papa.Instrument;
+
 public class Grinder extends Instrument {
     private int rotation;
 
@@ -16,7 +20,7 @@ public class Grinder extends Instrument {
 
     @Override
     public String toString() {
-        return "Grinder{" +
+        return "children.Grinder{" +
                 "rotation=" + rotation +
                 '}';
     }

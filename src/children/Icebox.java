@@ -1,3 +1,7 @@
+package children;
+
+import papa.Appliances;
+
 import java.util.Objects;
 
 public class Icebox extends Appliances {
@@ -18,7 +22,7 @@ public class Icebox extends Appliances {
 
     @Override
     public String toString() {
-        return "Icebox{" +
+        return "children.Icebox{" +
                 "noFrost=" + noFrost +
                 '}';
     }

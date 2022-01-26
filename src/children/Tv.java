@@ -1,3 +1,7 @@
+package children;
+
+import papa.Appliances;
+
 import java.util.Objects;
 
 public class Tv extends Appliances {
@@ -18,7 +22,7 @@ public class Tv extends Appliances {
 
     @Override
     public String toString() {
-        return "Tv{" +
+        return "children.Tv{" +
                 "diagonal='" + diagonal + '\'' +
                 '}';
     }
